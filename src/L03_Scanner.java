@@ -34,6 +34,21 @@ public class L03_Scanner {
         System.out.println("Decimal: " + decimal);
         System.out.println("Word: " + word);
 
+        // CALCULATOR EXAMPLE
+
+        // Ask user for two numbers
+        System.out.print("Enter first number: ");
+        int num1 = input.nextInt();
+
+        System.out.print("Enter second number: ");
+        int num2 = input.nextInt();
+
+        // Calculate the sum
+        int sum = num1 + num2;
+
+        // Display result
+        System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum);
+
         input.close();
 
     }
