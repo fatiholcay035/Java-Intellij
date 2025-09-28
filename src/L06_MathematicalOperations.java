@@ -64,5 +64,59 @@ public class L06_MathematicalOperations {
 
         int randomInt = (int)(Math.random() * 100); // random integer between 0 and 99
         System.out.println("Random integer (0 - 99): " + randomInt);
+
+
+        // ---------- 1. BASIC PRECEDENCE ----------
+        int aa = 10;
+        int bb = 5;
+        int cc = 2;
+
+        // Multiplication (*) has higher precedence than addition (+)
+        int result1 = aa + bb * cc; // same as 10 + (5 * 2)
+        System.out.println("10 + 5 * 2 = " + result1);
+
+        // Use parentheses to change the order
+        int result2 = (aa + bb) * cc; // (10 + 5) * 2
+        System.out.println("(10 + 5) * 2 = " + result2);
+
+        System.out.println("----------------------------------");
+
+        // ---------- 2. Division and Modulus ----------
+        int num1 = 20;
+        int num2 = 3;
+
+        int division = num1 / num2;    // 20 / 3 = 6 (integer division)
+        int modulus = num1 % num2;     // remainder: 20 % 3 = 2
+
+        System.out.println("Division: 20 / 3 = " + division);
+        System.out.println("Modulus: 20 % 3 = " + modulus);
+
+        System.out.println("----------------------------------");
+
+        // ---------- 3. Mixed operations ----------
+        int mixed = aa + bb * cc - num1 / num2 % cc;
+        // Step by step:
+        // 1) bb * cc = 5 * 2 = 10
+        // 2) num1 / num2 = 20 / 3 = 6
+        // 3) 6 % cc = 6 % 2 = 0
+        // 4) a + 10 - 0 = 10 + 10 - 0 = 20
+        System.out.println("Mixed operations result: " + mixed);
+
+        System.out.println("----------------------------------");
+
+        // ---------- 4. Increment/Decrement precedence ----------
+        int xx = 5;
+        int yy = ++xx * 2; // ++x is pre-increment: x becomes 6, then multiplied by 2
+        System.out.println("Pre-increment: ++xx * 2 = " + yy);
+
+        int zz = xx-- * 2; // x-- is post-decrement: x used first (6), then decremented
+        System.out.println("Post-decrement: x-- * 2 = " + zz);
+        System.out.println("x after post-decrement: " + xx);
+
+        System.out.println("----------------------------------");
+
+        // ---------- 5. Parentheses always have highest priority ----------
+        int complex = ((aa + bb) * (cc + num2)) / 2;
+        System.out.println("Complex expression with parentheses: " + complex);
     }
 }
