@@ -20,30 +20,30 @@ public class L23_ArrayListMethods {
         fruits.set(1, "Orange");
         System.out.println("After update: " + fruits);
 
-        // 5️⃣ Removing elements
+        // 5️ Removing elements
         fruits.remove("Cherry"); // Remove by value
         System.out.println("After removing Cherry: " + fruits);
 
         fruits.remove(0); // Remove by index
         System.out.println("After removing index 0: " + fruits);
 
-        // 6️⃣ Checking if an element exists
+        // 6️ Checking if an element exists
         System.out.println("Contains Orange? " + fruits.contains("Orange")); // true
 
-        // 7️⃣ Getting the size of the list
+        // 7️ Getting the size of the list
         System.out.println("List size: " + fruits.size());
 
-        // 8️⃣ Sorting the ArrayList
+        // 8 Sorting the ArrayList
         fruits.add("Mango");
         fruits.add("Pineapple");
         Collections.sort(fruits);
         System.out.println("Sorted list: " + fruits);
 
-        // 9️⃣ Reversing the ArrayList
+        // 9️ Reversing the ArrayList
         Collections.reverse(fruits);
         System.out.println("Reversed list: " + fruits);
 
-        // 🔟 Clearing all elements
+        // 10 Clearing all elements
         fruits.clear();
         System.out.println("After clear: " + fruits); // []
 
