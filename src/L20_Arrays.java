@@ -56,5 +56,53 @@ public class L20_Arrays {
         }
         System.out.println("Largest number: " + max);
 
+
+        ////////CREATING AND USING ARRAYS////////
+
+        // 1️ Creating an array of integers with a fixed size of 5
+        int[] numbers1 = new int[5];
+
+        // 2️ Assigning values to each element (index starts from 0)
+        numbers1[0] = 10;
+        numbers1[1] = 20;
+        numbers1[2] = 30;
+        numbers1[3] = 40;
+        numbers1[4] = 50;
+
+        // 3️ Accessing and printing individual elements
+        System.out.println("First element: " + numbers1[0]); // Output: 10
+        System.out.println("Last element: " + numbers1[4]);  // Output: 50
+
+        // 4️ Getting the length (total number of elements)
+        System.out.println("Array length: " + numbers1.length);
+
+        // 5️ Using a for loop to print all elements
+        System.out.println("All elements in the array:");
+        for (int i = 0; i < numbers1.length; i++) {
+            System.out.println("Element at index " + i + ": " + numbers1[i]);
+        }
+
+        // 6️ Using an enhanced for loop (simpler way)
+        System.out.println("Using enhanced for loop:");
+        for (int num : numbers1) {
+            System.out.println(num);
+        }
+
+        // 7️ Creating and initializing an array in one line
+        String[] fruits1 = {"Apple", "Banana", "Cherry", "Orange"};
+
+        // 8️ Accessing and printing string array elements
+        System.out.println("Fruits list:");
+        for (String fruit : fruits1) {
+            System.out.println(fruit);
+        }
+
+        // 9️ Example: Sum of all numbers in the array
+        int sum1 = 0;
+        for (int num : numbers) {
+            sum1 += num;
+        }
+        System.out.println("Sum of all numbers: " + sum1);
+
     }
 }
