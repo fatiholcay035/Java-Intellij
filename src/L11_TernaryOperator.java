@@ -2,7 +2,7 @@ public class L11_TernaryOperator {
     public static void main(String[] args) {
 
         // -----------------------------
-        // 1️⃣ BASIC TERNARY EXAMPLE
+        // 1️ BASIC TERNARY EXAMPLE
         // -----------------------------
         int number = 10;
 
@@ -16,7 +16,7 @@ public class L11_TernaryOperator {
 
 
         // -----------------------------
-        // 2️⃣ EVEN or ODD NUMBER CHECK
+        // 2️ EVEN or ODD NUMBER CHECK
         // -----------------------------
         int num = 7;
 
@@ -27,7 +27,7 @@ public class L11_TernaryOperator {
 
 
         // -----------------------------
-        // 3️⃣ NESTED TERNARY (MULTIPLE CONDITIONS)
+        // 3️ NESTED TERNARY (MULTIPLE CONDITIONS)
         // -----------------------------
         int score = 85;
 
@@ -41,7 +41,7 @@ public class L11_TernaryOperator {
 
 
         // -----------------------------
-        // 4️⃣ IF-ELSE vs TERNARY COMPARISON
+        // 4️ IF-ELSE vs TERNARY COMPARISON
         // -----------------------------
         int age = 20;
         String message;
@@ -61,7 +61,7 @@ public class L11_TernaryOperator {
 
 
         // -----------------------------
-        // 5️⃣ SUMMARY
+        // 5️ SUMMARY
         // -----------------------------
         // ?  → means "if condition is true"
         // :  → means "if condition is false"

@@ -112,7 +112,7 @@ public class L02_DataAndVeriable {
         final double PI = 3.14159;
         System.out.println("Constant PI: " + PI);
 
-        // PI = 3.15; // ❌ Error! You cannot reassign a final variable
+        // PI = 3.15; //  Error! You cannot reassign a final variable
 
 
 
