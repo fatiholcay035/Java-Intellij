@@ -1,9 +1,9 @@
-// L28_MutableVsImmutable.java
+
 // Mutable and Immutable Classes in Java
 
 /*
-🔹 Mutable Object → Can be changed after creation.
-🔹 Immutable Object → Cannot be changed after creation.
+ Mutable Object → Can be changed after creation.
+ Immutable Object → Cannot be changed after creation.
 */
 
 class MutablePerson {
@@ -82,7 +82,7 @@ public class L29_Mutable_ImmutableClass {
 }
 
 /*
-🧠 SUMMARY:
+  SUMMARY:
 - Mutable class → has setter methods → object state can change.
 - Immutable class → all fields are final, no setters → object state cannot change.
 - Example: String class in Java is immutable.
