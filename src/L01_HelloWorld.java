@@ -16,7 +16,7 @@ public class L01_HelloWorld {
         System.out.println("            |             |\\___/      ");
         System.out.println("             \\___________/            ");
         System.out.println();
-        System.out.println("             ☕  JAVA  ☕             ");
+        System.out.println("                  JAVA                ");
         System.out.println("======================================");
                 }
         }
