@@ -51,5 +51,17 @@ public class L33_AccessModifiers {
         // private: Accessible only within the same class.
         // protected: Accessible within the same package and by subclasses.
         // default: Accessible only within the same package.
+
+        /*
+        public: Visible from any class, in any package.
+
+        private: Only visible inside the same class.
+
+        protected: Visible to classes in the same package and subclasses (even in other packages).
+
+        default (no keyword): Visible only to classes in the same package.
+
+         */
+
     }
 }
