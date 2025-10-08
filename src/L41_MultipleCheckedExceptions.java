@@ -10,17 +10,17 @@ public class L41_MultipleCheckedExceptions {
         try {
             // Checked exceptions must be handled at compile time.
 
-            // 1️⃣ FileNotFoundException (a subclass of IOException)
+            // 1️ FileNotFoundException (a subclass of IOException)
             File file = new File("example.txt");
             FileReader reader = new FileReader(file);
 
-            // 2️⃣ IOException
+            // 2️ IOException
             int data = reader.read(); // may throw IOException
             System.out.println("Data: " + data);
 
             reader.close();
 
-            // 3️⃣ InterruptedException
+            // 3️ InterruptedException
             Thread.sleep(1000);
             System.out.println("Thread woke up!");
 
