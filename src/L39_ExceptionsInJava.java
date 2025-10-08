@@ -32,5 +32,30 @@ public class L39_ExceptionsInJava {
         }
 
         System.out.println("Program finished successfully!");
+        /*
+
+        Exception:
+        An error that occurs during program execution, which can stop the program if not handled properly.
+
+        try block:
+        Contains code that might throw an exception.
+
+        catch block:
+        Catches and handles the exception so the program doesn’t crash.
+
+        finally block:
+        Always runs, whether an exception occurs or not (used for cleanup operations).
+
+        Checked Exceptions:
+        These are checked at compile time (e.g., IOException, InterruptedException).
+
+        Unchecked Exceptions:
+        These occur during runtime (e.g., ArithmeticException, NullPointerException).
+
+        Best Practice:
+        Always handle possible exceptions to make programs more stable and user-friendly
+
+        */
+
     }
 }
