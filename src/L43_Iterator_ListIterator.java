@@ -28,5 +28,36 @@ public class L43_Iterator_ListIterator {
         while (listIt.hasPrevious()) { // move backward
             System.out.println(listIt.previous());
         }
+        /*
+    Explanation
+
+    Iterator
+
+    Used to traverse (loop through) elements in a collection.
+
+    Works for all collections (List, Set, etc.)
+
+    Main methods:
+
+    hasNext() → checks if there is a next element
+
+    next() → returns the next element
+
+    remove() → removes the current element
+
+    ListIterator
+
+    Used only with List (like ArrayList or LinkedList).
+
+    Can move forward and backward.
+
+    Main methods:
+
+    hasNext(), next()
+
+    hasPrevious(), previous()
+
+    add(), remove(), set()
+         */
     }
 }
